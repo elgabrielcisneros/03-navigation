@@ -21,7 +21,7 @@ export default function ProductsScreen() {
               <Text className="font-work-black">{item.price}$</Text>
               <Button
                 title="Ver detalles"
-                onPress={() => router.push(`/(stack)/products/${item.id}.tsx`)}
+                onPress={() => router.push(`/tabs/(stack)/products/${item.id}`)}
                 variant="text-only"
                 color="primary"
               ></Button>
