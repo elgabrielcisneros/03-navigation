@@ -15,17 +15,17 @@ export default function HomeScreen() {
 
       <View className="left-0 px-10 mt-5">
         <Button
-          onPress={() => router.push("./products/products")}
+          onPress={() => router.push("/tabs/(stack)/products/products")}
           title="Products"
           color="primary"
         ></Button>
         <Button
-          onPress={() => router.push("./profile/profile")}
+          onPress={() => router.push("/tabs/(stack)/profile/profile")}
           title="Profile"
           color="secondary"
         ></Button>
         <Button
-          onPress={() => router.navigate("./settings/settings")}
+          onPress={() => router.navigate("/tabs/(stack)/settings/settings")}
           title="Settings"
           color="tertiary"
           variant="text-only"
